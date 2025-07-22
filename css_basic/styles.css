@@ -3,7 +3,14 @@ body {
     flex-direction: column;
     width: 1100px;
     margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    color: #07949b; /* Dark gray text */
+    font-family: 'Arial', sans-serif;
+     background: linear-gradient(90deg, #2f086e, #17021f); /* Purple gradient */
+  border-bottom: 2px solid #120423;
 }
+
 
 main{
     display: flex;
@@ -22,4 +29,63 @@ aside{
     flex: 1;
     padding: 50px 15px;
     overflow-y: auto;
+    background: #010612;
+    border: 1px solid #080215;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #010612; /* Light gray background for nav */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+
+header {
+  background: linear-gradient(90deg, #2f086e, #17021f); /* Purple gradient */
+  border-bottom: 2px solid #120423;
+}
+
+header ul li {
+  color: rgb(21, 100, 220);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+  color: #ffd700; /* Gold logo */
+  font-size: 1.8em;
+}
+header a {
+    color: #fff; /* White links in header */
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333; /* Dark footer background */
+    color: #fff; /* White footer text */
+    font-size: 0.9em;
+    background-color: #010612; /* Light gray background for nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+article {
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+}
+
+article p {
+  line-height: 1.6;
+}
+header .logo {
+  color: #680b6e; /* Gold logo */
+  font-size: 1.8em;
 }
