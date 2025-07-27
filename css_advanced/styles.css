@@ -419,16 +419,199 @@
         .duration i {
             color: #ff6b8b;
         }
-      
+        button {
+            background: linear-gradient(135deg, #b51bab, #94188c);
+            color: white;
+            border: none;
+            padding: 18px 55px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(244, 111, 212, 0.4);
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+        
+        button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(203, 94, 192, 0.6);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+         .membership-section {
+             background: #1b0740;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .membership-section h2 {
+            font-size: 2.0rem;
+            color: #f7eef0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    b{
+        color: #cc34e7;
+    }
+        
+         .benefits-container {
+           text-align: center;
+        }
+        .benefits-container h2{
+            font-size: 2.0rem;
+            color: #f7eef0;
+            margin-bottom: 20px;
+        }
+        .benefits-grid{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .benefit-card {
+            background: #2c0a5b;
+            border-radius: 1px;
+            padding: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .FAQ-Sections {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: rgb(232, 226, 226);
+            display: flexbox;
+            flex-direction: row-reverse;
+            align-items: center;
 
+        }
+        .faq-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flexbox;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
+        .faq-title {
+            font-size: 2.5rem;
+            color: #120101;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #0a010e;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .faq-item {
+            background: #f3e6e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .FAQ-Sections p{
+            color: rgb(7, 7, 7);
+        }
         
 
+            footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a2530 100%);
+            color: white;
+            padding: 60px 20px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        footer section {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+           
+            position: relative;
+            z-index: 1;
+        }
         
-
-
-
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+            width: 100%;
+            align-items: left;
+        }
+        
+        .logo-container {
+            margin-bottom: 30px;
+        }
+        
+        
        
-  
+        
+        .social-icons {
+            display: flex;
+            gap: 55px;
+            margin-top: 25px;
+            justify-content: center;
+            width: 100%;
+            align-items: right;
+
+        }
+        .social-icons a {
+            display: flex;
+            align-items: right;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 2.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            background: white;
+            transform: translateY(-5px);
+        }
+        
+        .social-icons a:hover.fa-facebook {
+            color: #3b5998;
+        }
+         .social-icons a:hover.fa-twitter {
+            color: #1DA1F2;
+        }
+        
+        .social-icons a:hover.fa-instagram {
+            color: #E1306C;
+        }
+        
+        .copyright {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.7);
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        
+            
+
+        
+        
+        
+        
+        
 
 
         
