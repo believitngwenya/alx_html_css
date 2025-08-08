@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Results Speak for Themselves</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="2-styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="results-section">
+            <div class="section-content">
+                <h1 class="main-heading">Our results speak for themselves</h1>
+                
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="pentagon-stat">
+                        <div class="pentagon-inner">
+                            <div class="pentagon-face pentagon-front">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Lorem ipsum dolor</div>
+                            </div>
+                            <div class="pentagon-face pentagon-back">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Exceptional Growth</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pentagon-stat">
+                        <div class="pentagon-inner">
+                            <div class="pentagon-face pentagon-front">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Lorem ipsum dolor</div>
+                            </div>
+                            <div class="pentagon-face pentagon-back">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Client Satisfaction</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pentagon-stat">
+                        <div class="pentagon-inner">
+                            <div class="pentagon-face pentagon-front">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Lorem ipsum dolor</div>
+                            </div>
+                            <div class="pentagon-face pentagon-back">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Performance Boost</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pentagon-stat">
+                        <div class="pentagon-inner">
+                            <div class="pentagon-face pentagon-front">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Lorem ipsum dolor</div>
+                            </div>
+                            <div class="pentagon-face pentagon-back">
+                                <div class="stat-number">2%</div>
+                                <div class="stat-description">Efficiency Gain</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script>
+        // Add interactive effects for pentagon stats
+        document.addEventListener('DOMContentLoaded', function() {
+            const pentagonStats = document.querySelectorAll('.pentagon-stat');
+            
+            pentagonStats.forEach(stat => {
+                stat.addEventListener('mouseenter', () => {
+                    stat.style.zIndex = '10';
+                });
+                
+                stat.addEventListener('mouseleave', () => {
+                    stat.style.zIndex = '1';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
